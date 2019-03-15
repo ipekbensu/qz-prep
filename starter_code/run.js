@@ -1,4 +1,4 @@
-var quiz = require('./exercise.js');
+var quiz = require('./exercise.js'); // import functions
 
 // ----------------------------------------
 //   BASICS
@@ -15,10 +15,10 @@ console.log(q2);
 var q3 = quiz.question_03();
 console.log(q3);
 
-var q4 = quiz.question_04();
+var q4 = quiz.question_04({}, {});
 console.log(q4);
 
-var q5 = quiz.question_05();
+var q5 = quiz.question_05({});
 console.log(q5);
 
 // ----------------------------------------
